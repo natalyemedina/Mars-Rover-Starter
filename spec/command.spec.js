@@ -9,4 +9,11 @@ describe("Command class", function() {
     expect( function() { new Command();}).toThrow(new Error('Command type required.'));
   });
 
+  it("throws error if constructor does NOT set a command type", function() {
+  });
+
+  it("throws error if constructor does NOT set a value passed in as the 2nd argument", function() {
+  });
+
 });
+
